@@ -1,4 +1,4 @@
-package com.fengbaoxp.java8.jvm.metadataleak;
+package org.eugenewyj.java8.jvm.metadataleak;
 
 /**
  * @author Eugene Wang

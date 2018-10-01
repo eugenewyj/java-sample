@@ -1,4 +1,4 @@
-package com.fengbaoxp.java8.jvm.metadataleak;
+package org.eugenewyj.java8.jvm.metadataleak;
 
 import java.lang.reflect.Proxy;
 import java.net.URL;

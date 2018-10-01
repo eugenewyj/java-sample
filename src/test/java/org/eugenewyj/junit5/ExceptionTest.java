@@ -1,4 +1,4 @@
-package com.fengbaoxp.junit5;
+package org.eugenewyj.junit5;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

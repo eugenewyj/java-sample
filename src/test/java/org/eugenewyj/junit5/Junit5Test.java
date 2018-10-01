@@ -1,4 +1,4 @@
-package com.fengbaoxp.junit5;
+package org.eugenewyj.junit5;
 
 import org.junit.jupiter.api.*;
 import org.junit.platform.runner.JUnitPlatform;

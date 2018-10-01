@@ -1,4 +1,4 @@
-package com.fengbaoxp.java8.jvm;
+package org.eugenewyj.java8.jvm;
 
 /**
  * 栈溢出示例。

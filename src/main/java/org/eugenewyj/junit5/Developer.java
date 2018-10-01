@@ -1,4 +1,4 @@
-package com.fengbaoxp.junit5;
+package org.eugenewyj.junit5;
 
 /**
  * @author Eugene Wang

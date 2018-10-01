@@ -1,4 +1,4 @@
-package com.fengbaoxp.junit5;
+package org.eugenewyj.junit5;
 
 import org.junit.platform.runner.JUnitPlatform;
 import org.junit.platform.runner.SelectPackages;
