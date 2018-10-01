@@ -13,7 +13,7 @@ public class QuickSort {
      * @param <T> 数组中元素类型
      * @return 排序后数组
      */
-    public <T extends Comparable> void quickSort(T[] arr, int begin, int end) {
+    public <T extends Comparable> void sort(T[] arr, int begin, int end) {
         if (begin >= end) {
             return;
         }
@@ -27,16 +27,16 @@ public class QuickSort {
                 pivotIndex = i;
             }
         }
-        quickSort(arr, begin, pivotIndex-1);
-        quickSort(arr, pivotIndex+1, end);
+        sort(arr, begin, pivotIndex-1);
+        sort(arr, pivotIndex+1, end);
     }
 
 
     public static void main(String[] args) {
-        Integer[] arr = {5, 3, 2, 7, 10};
+        Integer[] arr = {5, 3, 2, 7, 2, 10};
         System.out.println("排序前：" + Arrays.toString(arr));
         QuickSort quickSort = new QuickSort();
-        quickSort.quickSort(arr, 0, arr.length-1);
+        quickSort.sort(arr, 0, arr.length-1);
         System.out.println("排序后：" + Arrays.toString(arr));
     }
 }
